@@ -1,0 +1,467 @@
+[0.000000] (-) TimerEvent: {}
+[0.001283] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.001443] (paltech_assignment) JobQueued: {'identifier': 'paltech_assignment', 'dependencies': OrderedDict()}
+[0.001696] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.011305] (paltech_assignment) JobStarted: {'identifier': 'paltech_assignment'}
+[0.025426] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.025914] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/bensalem/paltech_assignment/src/custom_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/bensalem/paltech_assignment/install/custom_interfaces'], 'cwd': '/home/bensalem/paltech_assignment/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bensalem'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/bensalem'), ('OLDPWD', '/home/bensalem'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-cbc4cda1-909a-487d-bb6e-bc2ba031f553.sock'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bensalem'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/35657_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/bensalem/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/bin/remote-cli:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Amazon Corretto/jdk11.0.21_9/bin:/mnt/c/Program Files/Amazon Corretto/jdk1.8.0_392/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/oucem/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/oucem/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/oucem/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/ffmpeg/bin:/mnt/c/Program Files/Java/jdk-22/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/bensalem/paltech_assignment/build/custom_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/opt/ros/noetic:/opt/ros/foxy'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[0.099619] (-) TimerEvent: {}
+[0.200058] (-) TimerEvent: {}
+[0.300461] (-) TimerEvent: {}
+[0.323438] (custom_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.400565] (-) TimerEvent: {}
+[0.500926] (-) TimerEvent: {}
+[0.575651] (custom_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.601045] (-) TimerEvent: {}
+[0.692067] (custom_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.701190] (-) TimerEvent: {}
+[0.722424] (paltech_assignment) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/paltech_assignment', 'build', '--build-base', '/home/bensalem/paltech_assignment/build/paltech_assignment/build', 'install', '--record', '/home/bensalem/paltech_assignment/build/paltech_assignment/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/bensalem/paltech_assignment/src/paltech_assignment', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'bensalem', 'ROS_PACKAGE_PATH': '/opt/ros/noetic/share', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/bensalem', 'OLDPWD': '/home/bensalem', 'TERM_PROGRAM_VERSION': '1.94.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-cbc4cda1-909a-487d-bb6e-bc2ba031f553.sock', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-20.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'bensalem', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/35657_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/ros/noetic/lib/pkgconfig', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/home/bensalem/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/bin/remote-cli:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Amazon Corretto/jdk11.0.21_9/bin:/mnt/c/Program Files/Amazon Corretto/jdk1.8.0_392/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/oucem/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/oucem/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/oucem/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/ffmpeg/bin:/mnt/c/Program Files/Java/jdk-22/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'ROSLISP_PACKAGE_DIRECTORIES': '', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'ROS_MASTER_URI': 'http://localhost:11311', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/bensalem/paltech_assignment/build/paltech_assignment', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bensalem/paltech_assignment/build/paltech_assignment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bensalem/paltech_assignment/install/paltech_assignment/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/noetic', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}, 'shell': False}
+[0.801326] (-) TimerEvent: {}
+[0.820403] (custom_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.822579] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.892901] (paltech_assignment) StdoutLine: {'line': b'running egg_info\n'}
+[0.893245] (paltech_assignment) StdoutLine: {'line': b'creating ../../build/paltech_assignment/paltech_assignment.egg-info\n'}
+[0.893564] (paltech_assignment) StdoutLine: {'line': b'writing ../../build/paltech_assignment/paltech_assignment.egg-info/PKG-INFO\n'}
+[0.893806] (paltech_assignment) StdoutLine: {'line': b'writing dependency_links to ../../build/paltech_assignment/paltech_assignment.egg-info/dependency_links.txt\n'}
+[0.894046] (paltech_assignment) StdoutLine: {'line': b'writing entry points to ../../build/paltech_assignment/paltech_assignment.egg-info/entry_points.txt\n'}
+[0.894276] (paltech_assignment) StdoutLine: {'line': b'writing requirements to ../../build/paltech_assignment/paltech_assignment.egg-info/requires.txt\n'}
+[0.894364] (paltech_assignment) StdoutLine: {'line': b'writing top-level names to ../../build/paltech_assignment/paltech_assignment.egg-info/top_level.txt\n'}
+[0.899006] (paltech_assignment) StdoutLine: {'line': b"writing manifest file '../../build/paltech_assignment/paltech_assignment.egg-info/SOURCES.txt'\n"}
+[0.901410] (-) TimerEvent: {}
+[0.924497] (paltech_assignment) StdoutLine: {'line': b"reading manifest file '../../build/paltech_assignment/paltech_assignment.egg-info/SOURCES.txt'\n"}
+[0.925181] (paltech_assignment) StdoutLine: {'line': b"writing manifest file '../../build/paltech_assignment/paltech_assignment.egg-info/SOURCES.txt'\n"}
+[0.925320] (paltech_assignment) StdoutLine: {'line': b'running build\n'}
+[0.925503] (paltech_assignment) StdoutLine: {'line': b'running build_py\n'}
+[0.925703] (paltech_assignment) StdoutLine: {'line': b'creating /home/bensalem/paltech_assignment/build/paltech_assignment/build\n'}
+[0.925882] (paltech_assignment) StdoutLine: {'line': b'creating /home/bensalem/paltech_assignment/build/paltech_assignment/build/lib\n'}
+[0.926011] (paltech_assignment) StdoutLine: {'line': b'creating /home/bensalem/paltech_assignment/build/paltech_assignment/build/lib/paltech_assignment\n'}
+[0.926242] (paltech_assignment) StdoutLine: {'line': b'copying paltech_assignment/waypoint_manager.py -> /home/bensalem/paltech_assignment/build/paltech_assignment/build/lib/paltech_assignment\n'}
+[0.926747] (paltech_assignment) StdoutLine: {'line': b'copying paltech_assignment/path_planning.py -> /home/bensalem/paltech_assignment/build/paltech_assignment/build/lib/paltech_assignment\n'}
+[0.927147] (paltech_assignment) StdoutLine: {'line': b'copying paltech_assignment/__init__.py -> /home/bensalem/paltech_assignment/build/paltech_assignment/build/lib/paltech_assignment\n'}
+[0.927334] (paltech_assignment) StdoutLine: {'line': b'running install\n'}
+[0.928077] (paltech_assignment) StdoutLine: {'line': b'running install_lib\n'}
+[0.928893] (paltech_assignment) StdoutLine: {'line': b'creating /home/bensalem/paltech_assignment/install/paltech_assignment/lib/python3.8/site-packages/paltech_assignment\n'}
+[0.929256] (paltech_assignment) StdoutLine: {'line': b'copying /home/bensalem/paltech_assignment/build/paltech_assignment/build/lib/paltech_assignment/waypoint_manager.py -> /home/bensalem/paltech_assignment/install/paltech_assignment/lib/python3.8/site-packages/paltech_assignment\n'}
+[0.929416] (paltech_assignment) StdoutLine: {'line': b'copying /home/bensalem/paltech_assignment/build/paltech_assignment/build/lib/paltech_assignment/path_planning.py -> /home/bensalem/paltech_assignment/install/paltech_assignment/lib/python3.8/site-packages/paltech_assignment\n'}
+[0.929626] (paltech_assignment) StdoutLine: {'line': b'copying /home/bensalem/paltech_assignment/build/paltech_assignment/build/lib/paltech_assignment/__init__.py -> /home/bensalem/paltech_assignment/install/paltech_assignment/lib/python3.8/site-packages/paltech_assignment\n'}
+[0.930123] (paltech_assignment) StdoutLine: {'line': b'byte-compiling /home/bensalem/paltech_assignment/install/paltech_assignment/lib/python3.8/site-packages/paltech_assignment/waypoint_manager.py to waypoint_manager.cpython-38.pyc\n'}
+[0.931717] (paltech_assignment) StdoutLine: {'line': b'byte-compiling /home/bensalem/paltech_assignment/install/paltech_assignment/lib/python3.8/site-packages/paltech_assignment/path_planning.py to path_planning.cpython-38.pyc\n'}
+[0.931951] (paltech_assignment) StdoutLine: {'line': b'byte-compiling /home/bensalem/paltech_assignment/install/paltech_assignment/lib/python3.8/site-packages/paltech_assignment/__init__.py to __init__.cpython-38.pyc\n'}
+[0.932185] (paltech_assignment) StdoutLine: {'line': b'running install_data\n'}
+[0.932276] (paltech_assignment) StdoutLine: {'line': b'creating /home/bensalem/paltech_assignment/install/paltech_assignment/share/ament_index\n'}
+[0.932413] (paltech_assignment) StdoutLine: {'line': b'creating /home/bensalem/paltech_assignment/install/paltech_assignment/share/ament_index/resource_index\n'}
+[0.932601] (paltech_assignment) StdoutLine: {'line': b'creating /home/bensalem/paltech_assignment/install/paltech_assignment/share/ament_index/resource_index/packages\n'}
+[0.932756] (paltech_assignment) StdoutLine: {'line': b'copying resource/paltech_assignment -> /home/bensalem/paltech_assignment/install/paltech_assignment/share/ament_index/resource_index/packages\n'}
+[0.932935] (paltech_assignment) StdoutLine: {'line': b'copying package.xml -> /home/bensalem/paltech_assignment/install/paltech_assignment/share/paltech_assignment\n'}
+[0.933085] (paltech_assignment) StdoutLine: {'line': b'creating /home/bensalem/paltech_assignment/install/paltech_assignment/share/paltech_assignment/launch\n'}
+[0.933193] (paltech_assignment) StdoutLine: {'line': b'copying launch/main_launch.py -> /home/bensalem/paltech_assignment/install/paltech_assignment/share/paltech_assignment/launch\n'}
+[0.933550] (paltech_assignment) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.935015] (paltech_assignment) StdoutLine: {'line': b'Copying ../../build/paltech_assignment/paltech_assignment.egg-info to /home/bensalem/paltech_assignment/install/paltech_assignment/lib/python3.8/site-packages/paltech_assignment-0.0.0-py3.8.egg-info\n'}
+[0.936278] (paltech_assignment) StdoutLine: {'line': b'running install_scripts\n'}
+[0.940468] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.948716] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.949312] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.949734] (paltech_assignment) StdoutLine: {'line': b'Installing waypoint_manager script to /home/bensalem/paltech_assignment/install/paltech_assignment/lib/paltech_assignment\n'}
+[0.950245] (paltech_assignment) StdoutLine: {'line': b"writing list of installed files to '/home/bensalem/paltech_assignment/build/paltech_assignment/install.log'\n"}
+[0.952975] (custom_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.971338] (paltech_assignment) CommandEnded: {'returncode': 0}
+[0.985799] (paltech_assignment) JobEnded: {'identifier': 'paltech_assignment', 'rc': 0}
+[1.001528] (-) TimerEvent: {}
+[1.076622] (custom_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.077444] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.101663] (-) TimerEvent: {}
+[1.196408] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.201762] (-) TimerEvent: {}
+[1.204366] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.204730] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.222563] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.248039] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.248329] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.301938] (-) TimerEvent: {}
+[1.402287] (-) TimerEvent: {}
+[1.420288] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.485646] (custom_interfaces) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.502412] (-) TimerEvent: {}
+[1.602763] (-) TimerEvent: {}
+[1.640501] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.651487] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.702900] (-) TimerEvent: {}
+[1.803274] (-) TimerEvent: {}
+[1.903743] (-) TimerEvent: {}
+[2.004247] (-) TimerEvent: {}
+[2.104709] (-) TimerEvent: {}
+[2.205168] (-) TimerEvent: {}
+[2.305525] (-) TimerEvent: {}
+[2.405896] (-) TimerEvent: {}
+[2.506314] (-) TimerEvent: {}
+[2.516985] (custom_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.606458] (-) TimerEvent: {}
+[2.706837] (-) TimerEvent: {}
+[2.807187] (-) TimerEvent: {}
+[2.907539] (-) TimerEvent: {}
+[3.007897] (-) TimerEvent: {}
+[3.108259] (-) TimerEvent: {}
+[3.208607] (-) TimerEvent: {}
+[3.276893] (custom_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[3.308747] (-) TimerEvent: {}
+[3.409121] (-) TimerEvent: {}
+[3.509470] (-) TimerEvent: {}
+[3.609901] (-) TimerEvent: {}
+[3.710240] (-) TimerEvent: {}
+[3.810588] (-) TimerEvent: {}
+[3.910942] (-) TimerEvent: {}
+[4.011331] (-) TimerEvent: {}
+[4.111727] (-) TimerEvent: {}
+[4.212232] (-) TimerEvent: {}
+[4.312657] (-) TimerEvent: {}
+[4.413037] (-) TimerEvent: {}
+[4.513403] (-) TimerEvent: {}
+[4.613801] (-) TimerEvent: {}
+[4.686034] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.713928] (-) TimerEvent: {}
+[4.814278] (-) TimerEvent: {}
+[4.847407] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[4.877817] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[4.914405] (-) TimerEvent: {}
+[5.010612] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[5.014512] (-) TimerEvent: {}
+[5.114884] (-) TimerEvent: {}
+[5.215295] (-) TimerEvent: {}
+[5.315684] (-) TimerEvent: {}
+[5.416066] (-) TimerEvent: {}
+[5.516472] (-) TimerEvent: {}
+[5.616841] (-) TimerEvent: {}
+[5.717223] (-) TimerEvent: {}
+[5.817609] (-) TimerEvent: {}
+[5.917991] (-) TimerEvent: {}
+[6.018462] (-) TimerEvent: {}
+[6.118861] (-) TimerEvent: {}
+[6.219263] (-) TimerEvent: {}
+[6.319635] (-) TimerEvent: {}
+[6.420025] (-) TimerEvent: {}
+[6.520498] (-) TimerEvent: {}
+[6.620867] (-) TimerEvent: {}
+[6.721252] (-) TimerEvent: {}
+[6.821645] (-) TimerEvent: {}
+[6.922035] (-) TimerEvent: {}
+[7.022396] (-) TimerEvent: {}
+[7.122748] (-) TimerEvent: {}
+[7.223113] (-) TimerEvent: {}
+[7.323483] (-) TimerEvent: {}
+[7.423870] (-) TimerEvent: {}
+[7.524284] (-) TimerEvent: {}
+[7.624659] (-) TimerEvent: {}
+[7.725008] (-) TimerEvent: {}
+[7.825370] (-) TimerEvent: {}
+[7.925728] (-) TimerEvent: {}
+[7.965486] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.025868] (-) TimerEvent: {}
+[8.092625] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.113523] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[8.115979] (custom_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[8.125973] (-) TimerEvent: {}
+[8.226293] (-) TimerEvent: {}
+[8.326653] (-) TimerEvent: {}
+[8.398405] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[8.398795] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.398865] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[8.398924] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[8.421550] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[8.426760] (-) TimerEvent: {}
+[8.527101] (-) TimerEvent: {}
+[8.559246] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.561228] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.575997] (custom_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.627224] (-) TimerEvent: {}
+[8.680406] (custom_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[8.683028] (custom_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/bensalem/paltech_assignment/build/custom_interfaces\n'}
+[8.692940] (custom_interfaces) CommandEnded: {'returncode': 0}
+[8.696667] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'build'}
+[8.696997] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bensalem/paltech_assignment/build/custom_interfaces', '--', '-j12', '-l12'], 'cwd': '/home/bensalem/paltech_assignment/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bensalem'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/bensalem'), ('OLDPWD', '/home/bensalem'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-cbc4cda1-909a-487d-bb6e-bc2ba031f553.sock'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bensalem'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/35657_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/bensalem/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/bin/remote-cli:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Amazon Corretto/jdk11.0.21_9/bin:/mnt/c/Program Files/Amazon Corretto/jdk1.8.0_392/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/oucem/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/oucem/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/oucem/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/ffmpeg/bin:/mnt/c/Program Files/Java/jdk-22/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/bensalem/paltech_assignment/build/custom_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/opt/ros/noetic:/opt/ros/foxy'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[8.727358] (-) TimerEvent: {}
+[8.735698] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__cpp\x1b[0m\n'}
+[8.735935] (custom_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[8.747293] (custom_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[8.827489] (-) TimerEvent: {}
+[8.927845] (-) TimerEvent: {}
+[9.028207] (-) TimerEvent: {}
+[9.058571] (custom_interfaces) StdoutLine: {'line': b'[  4%] Built target custom_interfaces__cpp\n'}
+[9.058907] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_generator_c\x1b[0m\n'}
+[9.069529] (custom_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[9.070006] (custom_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.070179] (custom_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.078342] (custom_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/set_waypoints__functions.c.o\x1b[0m\n'}
+[9.078746] (custom_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/waypoint__functions.c.o\x1b[0m\n'}
+[9.080073] (custom_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/get_waypoints__functions.c.o\x1b[0m\n'}
+[9.128359] (-) TimerEvent: {}
+[9.164498] (custom_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[9.228496] (-) TimerEvent: {}
+[9.271511] (custom_interfaces) StdoutLine: {'line': b'[ 19%] Built target custom_interfaces__rosidl_generator_c\n'}
+[9.283604] (custom_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.285999] (custom_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[9.316558] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[9.328667] (-) TimerEvent: {}
+[9.342256] (custom_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/srv/get_waypoints__type_support.cpp.o\x1b[0m\n'}
+[9.342641] (custom_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/waypoint__type_support.cpp.o\x1b[0m\n'}
+[9.343249] (custom_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/srv/set_waypoints__type_support.cpp.o\x1b[0m\n'}
+[9.351270] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[9.373450] (custom_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/srv/detail/set_waypoints__type_support.cpp.o\x1b[0m\n'}
+[9.373732] (custom_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/srv/detail/get_waypoints__type_support.cpp.o\x1b[0m\n'}
+[9.373829] (custom_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/waypoint__type_support.cpp.o\x1b[0m\n'}
+[9.413987] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[9.428897] (-) TimerEvent: {}
+[9.459870] (custom_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/dds_fastrtps/set_waypoints__type_support.cpp.o\x1b[0m\n'}
+[9.460200] (custom_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/waypoint__type_support.cpp.o\x1b[0m\n'}
+[9.466878] (custom_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/dds_fastrtps/get_waypoints__type_support.cpp.o\x1b[0m\n'}
+[9.529083] (-) TimerEvent: {}
+[9.626379] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[9.629282] (-) TimerEvent: {}
+[9.652244] (custom_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/waypoint__type_support.cpp.o\x1b[0m\n'}
+[9.652593] (custom_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/srv/set_waypoints__type_support.cpp.o\x1b[0m\n'}
+[9.709993] (custom_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/srv/get_waypoints__type_support.cpp.o\x1b[0m\n'}
+[9.729458] (-) TimerEvent: {}
+[9.767666] (custom_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.777726] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[9.830342] (-) TimerEvent: {}
+[9.860214] (custom_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/waypoint__type_support.c.o\x1b[0m\n'}
+[9.865246] (custom_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/set_waypoints__type_support.c.o\x1b[0m\n'}
+[9.887726] (custom_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/get_waypoints__type_support.c.o\x1b[0m\n'}
+[9.914109] (custom_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.930512] (-) TimerEvent: {}
+[9.953724] (custom_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.990656] (custom_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.999739] (custom_interfaces) StdoutLine: {'line': b'[ 63%] Built target custom_interfaces__rosidl_typesupport_c\n'}
+[10.030662] (-) TimerEvent: {}
+[10.061519] (custom_interfaces) StdoutLine: {'line': b'[ 63%] Built target custom_interfaces__rosidl_typesupport_cpp\n'}
+[10.079386] (custom_interfaces) StdoutLine: {'line': b'[ 63%] Built target custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[10.130885] (-) TimerEvent: {}
+[10.181431] (custom_interfaces) StdoutLine: {'line': b'[ 63%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[10.211586] (custom_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[10.230987] (-) TimerEvent: {}
+[10.331351] (-) TimerEvent: {}
+[10.352550] (custom_interfaces) StdoutLine: {'line': b'[ 65%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[10.363328] (custom_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.431481] (-) TimerEvent: {}
+[10.531894] (-) TimerEvent: {}
+[10.603626] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[10.626750] (custom_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/set_waypoints__type_support_c.cpp.o\x1b[0m\n'}
+[10.627015] (custom_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/waypoint__type_support_c.cpp.o\x1b[0m\n'}
+[10.627101] (custom_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/get_waypoints__type_support_c.cpp.o\x1b[0m\n'}
+[10.632009] (-) TimerEvent: {}
+[10.732408] (-) TimerEvent: {}
+[10.832822] (-) TimerEvent: {}
+[10.933305] (-) TimerEvent: {}
+[10.995174] (custom_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[11.033426] (-) TimerEvent: {}
+[11.133808] (-) TimerEvent: {}
+[11.142273] (custom_interfaces) StdoutLine: {'line': b'[ 76%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[11.154504] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces\x1b[0m\n'}
+[11.165370] (custom_interfaces) StdoutLine: {'line': b'[ 76%] Built target custom_interfaces\n'}
+[11.175377] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__py\x1b[0m\n'}
+[11.186900] (custom_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[11.233916] (-) TimerEvent: {}
+[11.334240] (-) TimerEvent: {}
+[11.434623] (-) TimerEvent: {}
+[11.534981] (-) TimerEvent: {}
+[11.635352] (-) TimerEvent: {}
+[11.735743] (-) TimerEvent: {}
+[11.747865] (custom_interfaces) StdoutLine: {'line': b'[ 78%] Built target custom_interfaces__py\n'}
+[11.757842] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__python\x1b[0m\n'}
+[11.810371] (custom_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__python.dir/rosidl_generator_py/custom_interfaces/srv/_set_waypoints_s.c.o\x1b[0m\n'}
+[11.810567] (custom_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__python.dir/rosidl_generator_py/custom_interfaces/msg/_waypoint_s.c.o\x1b[0m\n'}
+[11.810634] (custom_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__python.dir/rosidl_generator_py/custom_interfaces/srv/_get_waypoints_s.c.o\x1b[0m\n'}
+[11.835890] (-) TimerEvent: {}
+[11.909517] (custom_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__python.so\x1b[0m\n'}
+[11.936020] (-) TimerEvent: {}
+[12.000555] (custom_interfaces) StdoutLine: {'line': b'[ 87%] Built target custom_interfaces__python\n'}
+[12.009969] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[12.010180] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[12.010258] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[12.029544] (custom_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[12.029830] (custom_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[12.029929] (custom_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[12.036177] (-) TimerEvent: {}
+[12.110692] (custom_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.110911] (custom_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.111080] (custom_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.136309] (-) TimerEvent: {}
+[12.200733] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_c__pyext\n'}
+[12.214645] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[12.232893] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[12.236393] (-) TimerEvent: {}
+[12.244557] (custom_interfaces) CommandEnded: {'returncode': 0}
+[12.326009] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'install'}
+[12.337153] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bensalem/paltech_assignment/build/custom_interfaces'], 'cwd': '/home/bensalem/paltech_assignment/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bensalem'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/bensalem'), ('OLDPWD', '/home/bensalem'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-cbc4cda1-909a-487d-bb6e-bc2ba031f553.sock'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bensalem'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/35657_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/bensalem/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/bin/remote-cli:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Amazon Corretto/jdk11.0.21_9/bin:/mnt/c/Program Files/Amazon Corretto/jdk1.8.0_392/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/oucem/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/oucem/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/oucem/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/ffmpeg/bin:/mnt/c/Program Files/Java/jdk-22/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/bensalem/paltech_assignment/build/custom_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/opt/ros/noetic:/opt/ros/foxy'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[12.339078] (-) TimerEvent: {}
+[12.344633] (custom_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.345700] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces\n'}
+[12.346356] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces\n'}
+[12.346856] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/msg\n'}
+[12.347065] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/msg/waypoint.h\n'}
+[12.347238] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.347537] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/msg/detail\n'}
+[12.347727] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/msg/detail/waypoint__functions.c\n'}
+[12.347877] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/msg/detail/waypoint__struct.h\n'}
+[12.348030] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/msg/detail/waypoint__functions.h\n'}
+[12.348140] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/msg/detail/waypoint__type_support.h\n'}
+[12.348250] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv\n'}
+[12.348476] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/set_waypoints.h\n'}
+[12.348649] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/get_waypoints.h\n'}
+[12.348813] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/detail\n'}
+[12.348984] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/detail/get_waypoints__functions.c\n'}
+[12.349374] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/detail/set_waypoints__functions.h\n'}
+[12.349553] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/detail/set_waypoints__struct.h\n'}
+[12.349973] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/detail/get_waypoints__type_support.h\n'}
+[12.350140] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/detail/get_waypoints__functions.h\n'}
+[12.350265] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/detail/set_waypoints__functions.c\n'}
+[12.350424] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/detail/get_waypoints__struct.h\n'}
+[12.350588] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/detail/set_waypoints__type_support.h\n'}
+[12.351058] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh\n'}
+[12.351245] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv\n'}
+[12.351615] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so\n'}
+[12.352125] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bensalem/paltech_assignment/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""\n'}
+[12.352366] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces\n'}
+[12.352502] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/msg\n'}
+[12.352756] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.352875] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/msg/detail\n'}
+[12.352938] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/msg/detail/waypoint__rosidl_typesupport_fastrtps_c.h\n'}
+[12.352995] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv\n'}
+[12.353110] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/detail\n'}
+[12.353246] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/detail/set_waypoints__rosidl_typesupport_fastrtps_c.h\n'}
+[12.353393] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/detail/get_waypoints__rosidl_typesupport_fastrtps_c.h\n'}
+[12.353479] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[12.353691] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bensalem/paltech_assignment/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[12.353834] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces\n'}
+[12.354069] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/msg\n'}
+[12.354216] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.354440] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/msg/detail\n'}
+[12.354633] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/msg/detail/waypoint__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.354787] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/msg/detail/dds_fastrtps\n'}
+[12.354871] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv\n'}
+[12.354931] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/detail\n'}
+[12.355046] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/detail/get_waypoints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.355173] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/detail/dds_fastrtps\n'}
+[12.355345] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/detail/set_waypoints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.355419] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[12.355611] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bensalem/paltech_assignment/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[12.355868] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces\n'}
+[12.355941] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/msg\n'}
+[12.355998] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.356052] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/msg/detail\n'}
+[12.356104] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/msg/detail/waypoint__type_support.c\n'}
+[12.356279] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/msg/detail/waypoint__rosidl_typesupport_introspection_c.h\n'}
+[12.356424] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv\n'}
+[12.356632] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/detail\n'}
+[12.356749] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/detail/set_waypoints__type_support.c\n'}
+[12.356816] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/detail/get_waypoints__type_support.c\n'}
+[12.356937] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/detail/get_waypoints__rosidl_typesupport_introspection_c.h\n'}
+[12.357065] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/detail/set_waypoints__rosidl_typesupport_introspection_c.h\n'}
+[12.357276] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[12.357688] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bensalem/paltech_assignment/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[12.357841] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so\n'}
+[12.358219] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bensalem/paltech_assignment/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[12.358473] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces\n'}
+[12.358782] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/msg\n'}
+[12.358977] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[12.359130] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/msg/waypoint.hpp\n'}
+[12.359291] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/msg/detail\n'}
+[12.359438] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/msg/detail/waypoint__struct.hpp\n'}
+[12.359504] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/msg/detail/waypoint__builder.hpp\n'}
+[12.359563] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/msg/detail/waypoint__type_support.hpp\n'}
+[12.359670] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/msg/detail/waypoint__traits.hpp\n'}
+[12.359738] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv\n'}
+[12.359870] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/set_waypoints.hpp\n'}
+[12.360090] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/detail\n'}
+[12.360304] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/detail/set_waypoints__type_support.hpp\n'}
+[12.360400] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/detail/set_waypoints__struct.hpp\n'}
+[12.360465] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/detail/set_waypoints__builder.hpp\n'}
+[12.360617] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/detail/set_waypoints__traits.hpp\n'}
+[12.360754] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/detail/get_waypoints__type_support.hpp\n'}
+[12.360962] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/detail/get_waypoints__builder.hpp\n'}
+[12.361040] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/detail/get_waypoints__traits.hpp\n'}
+[12.361167] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/detail/get_waypoints__struct.hpp\n'}
+[12.361320] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/get_waypoints.hpp\n'}
+[12.361384] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces\n'}
+[12.361605] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/msg\n'}
+[12.361761] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/msg/detail\n'}
+[12.361984] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/msg/detail/waypoint__type_support.cpp\n'}
+[12.362233] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/msg/detail/waypoint__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.362328] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv\n'}
+[12.362476] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/detail\n'}
+[12.362545] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/detail/get_waypoints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.362603] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/detail/get_waypoints__type_support.cpp\n'}
+[12.362659] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/detail/set_waypoints__type_support.cpp\n'}
+[12.362712] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/include/custom_interfaces/srv/detail/set_waypoints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.362764] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[12.362931] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bensalem/paltech_assignment/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[12.363107] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so\n'}
+[12.363447] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bensalem/paltech_assignment/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[12.363629] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh\n'}
+[12.363744] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv\n'}
+[12.364437] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/__init__.py\n'}
+[12.390396] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/bensalem/paltech_assignment/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/__init__.py'...\n"}
+[12.393679] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/msg\n'}
+[12.394000] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/msg/_waypoint.py\n'}
+[12.394225] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/msg/__init__.py\n'}
+[12.394426] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/msg/_waypoint_s.c\n'}
+[12.394737] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/srv\n'}
+[12.394861] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/srv/_set_waypoints_s.c\n'}
+[12.395205] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/srv/_get_waypoints.py\n'}
+[12.395727] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/srv/__init__.py\n'}
+[12.396005] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/srv/_get_waypoints_s.c\n'}
+[12.396119] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/srv/_set_waypoints.py\n'}
+[12.396391] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[12.397914] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bensalem/paltech_assignment/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[12.398178] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[12.398698] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bensalem/paltech_assignment/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[12.398894] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[12.399389] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bensalem/paltech_assignment/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[12.399613] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/lib/libcustom_interfaces__python.so\n'}
+[12.399889] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bensalem/paltech_assignment/install/custom_interfaces/lib/libcustom_interfaces__python.so" to ""\n'}
+[12.400187] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/msg/Waypoint.idl\n'}
+[12.400564] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/srv/SetWaypoints.idl\n'}
+[12.400739] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/srv/GetWaypoints.idl\n'}
+[12.400900] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/msg/Waypoint.msg\n'}
+[12.401084] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/srv/SetWaypoints.srv\n'}
+[12.401249] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/srv/SetWaypoints_Request.msg\n'}
+[12.401406] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/srv/SetWaypoints_Response.msg\n'}
+[12.401543] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/srv/GetWaypoints.srv\n'}
+[12.401744] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/srv/GetWaypoints_Request.msg\n'}
+[12.402228] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/srv/GetWaypoints_Response.msg\n'}
+[12.402650] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces\n'}
+[12.403083] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces\n'}
+[12.403252] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh\n'}
+[12.403539] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[12.403754] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/environment/path.sh\n'}
+[12.404014] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/environment/path.dsv\n'}
+[12.404251] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/local_setup.bash\n'}
+[12.404385] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/local_setup.sh\n'}
+[12.404548] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/local_setup.zsh\n'}
+[12.404719] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/local_setup.dsv\n'}
+[12.404908] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/package.dsv\n'}
+[12.405280] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces\n'}
+[12.405623] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cExport.cmake\n'}
+[12.405805] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.406010] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.406194] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.406425] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[12.406598] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.406811] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cppExport.cmake\n'}
+[12.407022] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.407256] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.407454] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[12.407630] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.407806] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[12.407979] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.408151] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.408334] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.408505] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.408704] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.408871] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.409045] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake\n'}
+[12.409196] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake\n'}
+[12.409369] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bensalem/paltech_assignment/install/custom_interfaces/share/custom_interfaces/package.xml\n'}
+[12.411754] (custom_interfaces) CommandEnded: {'returncode': 0}
+[12.439342] (-) TimerEvent: {}
+[12.511164] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 0}
+[12.512632] (-) EventReactorShutdown: {}

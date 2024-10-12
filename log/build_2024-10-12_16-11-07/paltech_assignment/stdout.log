@@ -1,0 +1,40 @@
+running egg_info
+creating ../../build/paltech_assignment/paltech_assignment.egg-info
+writing ../../build/paltech_assignment/paltech_assignment.egg-info/PKG-INFO
+writing dependency_links to ../../build/paltech_assignment/paltech_assignment.egg-info/dependency_links.txt
+writing entry points to ../../build/paltech_assignment/paltech_assignment.egg-info/entry_points.txt
+writing requirements to ../../build/paltech_assignment/paltech_assignment.egg-info/requires.txt
+writing top-level names to ../../build/paltech_assignment/paltech_assignment.egg-info/top_level.txt
+writing manifest file '../../build/paltech_assignment/paltech_assignment.egg-info/SOURCES.txt'
+reading manifest file '../../build/paltech_assignment/paltech_assignment.egg-info/SOURCES.txt'
+writing manifest file '../../build/paltech_assignment/paltech_assignment.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/bensalem/paltech_assignment/build/paltech_assignment/build
+creating /home/bensalem/paltech_assignment/build/paltech_assignment/build/lib
+creating /home/bensalem/paltech_assignment/build/paltech_assignment/build/lib/paltech_assignment
+copying paltech_assignment/waypoint_manager.py -> /home/bensalem/paltech_assignment/build/paltech_assignment/build/lib/paltech_assignment
+copying paltech_assignment/path_planning.py -> /home/bensalem/paltech_assignment/build/paltech_assignment/build/lib/paltech_assignment
+copying paltech_assignment/__init__.py -> /home/bensalem/paltech_assignment/build/paltech_assignment/build/lib/paltech_assignment
+running install
+running install_lib
+creating /home/bensalem/paltech_assignment/install/paltech_assignment/lib/python3.8/site-packages/paltech_assignment
+copying /home/bensalem/paltech_assignment/build/paltech_assignment/build/lib/paltech_assignment/waypoint_manager.py -> /home/bensalem/paltech_assignment/install/paltech_assignment/lib/python3.8/site-packages/paltech_assignment
+copying /home/bensalem/paltech_assignment/build/paltech_assignment/build/lib/paltech_assignment/path_planning.py -> /home/bensalem/paltech_assignment/install/paltech_assignment/lib/python3.8/site-packages/paltech_assignment
+copying /home/bensalem/paltech_assignment/build/paltech_assignment/build/lib/paltech_assignment/__init__.py -> /home/bensalem/paltech_assignment/install/paltech_assignment/lib/python3.8/site-packages/paltech_assignment
+byte-compiling /home/bensalem/paltech_assignment/install/paltech_assignment/lib/python3.8/site-packages/paltech_assignment/waypoint_manager.py to waypoint_manager.cpython-38.pyc
+byte-compiling /home/bensalem/paltech_assignment/install/paltech_assignment/lib/python3.8/site-packages/paltech_assignment/path_planning.py to path_planning.cpython-38.pyc
+byte-compiling /home/bensalem/paltech_assignment/install/paltech_assignment/lib/python3.8/site-packages/paltech_assignment/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/bensalem/paltech_assignment/install/paltech_assignment/share/ament_index
+creating /home/bensalem/paltech_assignment/install/paltech_assignment/share/ament_index/resource_index
+creating /home/bensalem/paltech_assignment/install/paltech_assignment/share/ament_index/resource_index/packages
+copying resource/paltech_assignment -> /home/bensalem/paltech_assignment/install/paltech_assignment/share/ament_index/resource_index/packages
+copying package.xml -> /home/bensalem/paltech_assignment/install/paltech_assignment/share/paltech_assignment
+creating /home/bensalem/paltech_assignment/install/paltech_assignment/share/paltech_assignment/launch
+copying launch/main_launch.py -> /home/bensalem/paltech_assignment/install/paltech_assignment/share/paltech_assignment/launch
+running install_egg_info
+Copying ../../build/paltech_assignment/paltech_assignment.egg-info to /home/bensalem/paltech_assignment/install/paltech_assignment/lib/python3.8/site-packages/paltech_assignment-0.0.0-py3.8.egg-info
+running install_scripts
+Installing waypoint_manager script to /home/bensalem/paltech_assignment/install/paltech_assignment/lib/paltech_assignment
+writing list of installed files to '/home/bensalem/paltech_assignment/build/paltech_assignment/install.log'

@@ -1,0 +1,3 @@
+[console_scripts]
+waypoint_manager = paltech_assignment.waypoint_manager:main
+

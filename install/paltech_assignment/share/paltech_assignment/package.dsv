@@ -1,0 +1,6 @@
+source;share/paltech_assignment/hook/pythonpath.ps1
+source;share/paltech_assignment/hook/pythonpath.dsv
+source;share/paltech_assignment/hook/pythonpath.sh
+source;share/paltech_assignment/hook/ament_prefix_path.ps1
+source;share/paltech_assignment/hook/ament_prefix_path.dsv
+source;share/paltech_assignment/hook/ament_prefix_path.sh

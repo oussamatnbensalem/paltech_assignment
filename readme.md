@@ -1,16 +1,10 @@
 # Paltech Assignment
 
+I created a ROS2 working space and moved all the files to the source to be able to test my implimentation. Please find the code under /src directory.
+
 ## Part 1: Basic waypoint manager in ROS2
 
-### Task 1: Set waypoints from geojson file.
-Complete the **set_waypoints_callback** function in **waypoint_manager.py** in order to load the waypoints to the node.
-
-### Task 2: Coordinate transformation from geographic to robot frame.
-Complete the **convert_waypoints_to_robot_frame** function in **waypoint_manager.py**. This function should convert the list of waypoints from geographic coordinates to the robot's coordinate frame (X, Y), where:  
-    X represents the distance in meters to the east of the robot's initial pose.  
-    Y represents the distance in meters to the north of the robot's initial pose.  
-### Task3: Loaded waypoints visualization 
-Plot the waypoints (X,Y,yaw) in robot coordinate frame using matplotlib or another visualization tool.  
+I didn't find any file or topic that provides information about the yaw angle of the robot so I assumed it will face the first waypoint and calculated the angle in that case just for the samke of this demonstrartion. 
 
 ## Part 2: Path Planning 
 

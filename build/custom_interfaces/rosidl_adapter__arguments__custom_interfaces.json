@@ -1,0 +1,8 @@
+{
+  "package_name": "custom_interfaces",
+  "non_idl_tuples": [
+    "/home/bensalem/paltech_assignment/src/custom_interfaces:msg/Waypoint.msg",
+    "/home/bensalem/paltech_assignment/src/custom_interfaces:srv/SetWaypoints.srv",
+    "/home/bensalem/paltech_assignment/src/custom_interfaces:srv/GetWaypoints.srv"
+  ]
+}

@@ -1,0 +1,42 @@
+[0.715s] Invoking command in '/home/bensalem/paltech_assignment/src/paltech_assignment': PYTHONPATH=/home/bensalem/paltech_assignment/build/paltech_assignment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bensalem/paltech_assignment/install/paltech_assignment/lib/python3.8/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/paltech_assignment build --build-base /home/bensalem/paltech_assignment/build/paltech_assignment/build install --record /home/bensalem/paltech_assignment/build/paltech_assignment/install.log --single-version-externally-managed install_data
+[0.881s] running egg_info
+[0.882s] creating ../../build/paltech_assignment/paltech_assignment.egg-info
+[0.882s] writing ../../build/paltech_assignment/paltech_assignment.egg-info/PKG-INFO
+[0.882s] writing dependency_links to ../../build/paltech_assignment/paltech_assignment.egg-info/dependency_links.txt
+[0.883s] writing entry points to ../../build/paltech_assignment/paltech_assignment.egg-info/entry_points.txt
+[0.883s] writing requirements to ../../build/paltech_assignment/paltech_assignment.egg-info/requires.txt
+[0.883s] writing top-level names to ../../build/paltech_assignment/paltech_assignment.egg-info/top_level.txt
+[0.888s] writing manifest file '../../build/paltech_assignment/paltech_assignment.egg-info/SOURCES.txt'
+[0.913s] reading manifest file '../../build/paltech_assignment/paltech_assignment.egg-info/SOURCES.txt'
+[0.914s] writing manifest file '../../build/paltech_assignment/paltech_assignment.egg-info/SOURCES.txt'
+[0.914s] running build
+[0.914s] running build_py
+[0.914s] creating /home/bensalem/paltech_assignment/build/paltech_assignment/build
+[0.914s] creating /home/bensalem/paltech_assignment/build/paltech_assignment/build/lib
+[0.914s] creating /home/bensalem/paltech_assignment/build/paltech_assignment/build/lib/paltech_assignment
+[0.915s] copying paltech_assignment/waypoint_manager.py -> /home/bensalem/paltech_assignment/build/paltech_assignment/build/lib/paltech_assignment
+[0.915s] copying paltech_assignment/path_planning.py -> /home/bensalem/paltech_assignment/build/paltech_assignment/build/lib/paltech_assignment
+[0.916s] copying paltech_assignment/__init__.py -> /home/bensalem/paltech_assignment/build/paltech_assignment/build/lib/paltech_assignment
+[0.916s] running install
+[0.917s] running install_lib
+[0.917s] creating /home/bensalem/paltech_assignment/install/paltech_assignment/lib/python3.8/site-packages/paltech_assignment
+[0.918s] copying /home/bensalem/paltech_assignment/build/paltech_assignment/build/lib/paltech_assignment/waypoint_manager.py -> /home/bensalem/paltech_assignment/install/paltech_assignment/lib/python3.8/site-packages/paltech_assignment
+[0.918s] copying /home/bensalem/paltech_assignment/build/paltech_assignment/build/lib/paltech_assignment/path_planning.py -> /home/bensalem/paltech_assignment/install/paltech_assignment/lib/python3.8/site-packages/paltech_assignment
+[0.918s] copying /home/bensalem/paltech_assignment/build/paltech_assignment/build/lib/paltech_assignment/__init__.py -> /home/bensalem/paltech_assignment/install/paltech_assignment/lib/python3.8/site-packages/paltech_assignment
+[0.919s] byte-compiling /home/bensalem/paltech_assignment/install/paltech_assignment/lib/python3.8/site-packages/paltech_assignment/waypoint_manager.py to waypoint_manager.cpython-38.pyc
+[0.920s] byte-compiling /home/bensalem/paltech_assignment/install/paltech_assignment/lib/python3.8/site-packages/paltech_assignment/path_planning.py to path_planning.cpython-38.pyc
+[0.920s] byte-compiling /home/bensalem/paltech_assignment/install/paltech_assignment/lib/python3.8/site-packages/paltech_assignment/__init__.py to __init__.cpython-38.pyc
+[0.921s] running install_data
+[0.921s] creating /home/bensalem/paltech_assignment/install/paltech_assignment/share/ament_index
+[0.921s] creating /home/bensalem/paltech_assignment/install/paltech_assignment/share/ament_index/resource_index
+[0.921s] creating /home/bensalem/paltech_assignment/install/paltech_assignment/share/ament_index/resource_index/packages
+[0.921s] copying resource/paltech_assignment -> /home/bensalem/paltech_assignment/install/paltech_assignment/share/ament_index/resource_index/packages
+[0.921s] copying package.xml -> /home/bensalem/paltech_assignment/install/paltech_assignment/share/paltech_assignment
+[0.922s] creating /home/bensalem/paltech_assignment/install/paltech_assignment/share/paltech_assignment/launch
+[0.922s] copying launch/main_launch.py -> /home/bensalem/paltech_assignment/install/paltech_assignment/share/paltech_assignment/launch
+[0.922s] running install_egg_info
+[0.924s] Copying ../../build/paltech_assignment/paltech_assignment.egg-info to /home/bensalem/paltech_assignment/install/paltech_assignment/lib/python3.8/site-packages/paltech_assignment-0.0.0-py3.8.egg-info
+[0.925s] running install_scripts
+[0.938s] Installing waypoint_manager script to /home/bensalem/paltech_assignment/install/paltech_assignment/lib/paltech_assignment
+[0.939s] writing list of installed files to '/home/bensalem/paltech_assignment/build/paltech_assignment/install.log'
+[0.960s] Invoked command in '/home/bensalem/paltech_assignment/src/paltech_assignment' returned '0': PYTHONPATH=/home/bensalem/paltech_assignment/build/paltech_assignment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bensalem/paltech_assignment/install/paltech_assignment/lib/python3.8/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/paltech_assignment build --build-base /home/bensalem/paltech_assignment/build/paltech_assignment/build install --record /home/bensalem/paltech_assignment/build/paltech_assignment/install.log --single-version-externally-managed install_data

@@ -1,0 +1,3 @@
+/home/bensalem/paltech_assignment/build/custom_interfaces/rosidl_adapter/custom_interfaces:msg/Waypoint.idl
+/home/bensalem/paltech_assignment/build/custom_interfaces/rosidl_adapter/custom_interfaces:srv/SetWaypoints.idl
+/home/bensalem/paltech_assignment/build/custom_interfaces/rosidl_adapter/custom_interfaces:srv/GetWaypoints.idl
