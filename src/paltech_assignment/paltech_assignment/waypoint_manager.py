@@ -117,11 +117,12 @@ class WaypointManager(Node):
         axs[1].set_title('Original Waypoints')
         
         plt.tight_layout()
-        plt.show()             
+        plt.show()          
         pass
 
     def get_robot_waypoints_callback(self, request, response):
         response.waypoints = self.waypoint_list_geo
+        
 
         return response
 
