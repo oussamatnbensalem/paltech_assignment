@@ -22,9 +22,11 @@ I passed the orientation when using dubins as 0 because we're dealing with a poi
 **BONUS:**  
 
 - How does the path planning change if we allow the robot to move in reverse? (REEDS_SHEPP motion model instead of DUBINS) Explain.
+[Answer] : 
 the Path planning would be more efficient when using REEDS_SHEPP: allowing reverse motion adds maneuverability that allows the robot to take shorter paths rather than having to take unnecessary large turns.
 
-- What would happen if the working area of the robot is taken into account? E.G. the robot can remove weeds that are in a radius of 0,5m around its center. Explain.: 
+- What would happen if the working area of the robot is taken into account? E.G. the robot can remove weeds that are in a radius of 0,5m around its center. Explain.
+[Answer] : 
 Primarly this would mean that the robot wouldn't have to reach the exact positions of weeds when planning the path but rather follow a path that brings it within a 0.5m radius from the weeds. Which basically means that the robot could find a smoother and shorter path with much more effitiency. To achieve this, the weeds could be clustered using algorithms like K-MEANS with a radius of 0.5 and then planning a path between the centroids of those clusters using any algorithm solving the Traveling Salesman Problem (TSP). 
 
 
