@@ -1,3 +1,4 @@
+![Screenshot 2024-10-13 215330](https://github.com/user-attachments/assets/8c9d4ef6-31e1-435b-959b-3cee75b5444e)
 # Paltech Assignment
 
 I created a ROS2 working space and moved all the files to the source to be able to test my implementation. Please find the code under /src directory.
