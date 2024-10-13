@@ -4,7 +4,7 @@ I created a ROS2 working space and moved all the files to the source to be able 
 
 ## Part 1: Basic waypoint manager in ROS2
 
-I didn't find any file or topic that provides information about the origin yaw angle of the robot (which should be provided to the waypoint message) so I assumed it will face the first waypoint and calculated the angle in that case just for the sake of this demonstrartion. 
+I didn't find any file or topic that provides information about the origin yaw angle of the robot (which should be provided to the waypoint message) so I assumed it will face the first waypoint and calculated the angle in that case just for the sake of this demonstration. 
 
 ## Part 2: Path Planning 
 - Generate M random GPS points (e.g. 500) distributed in an area of 1000 m². These points represent weed positions: 
@@ -28,7 +28,6 @@ the Path planning would be more efficient when using REEDS_SHEPP: allowing rever
 - What would happen if the working area of the robot is taken into account? E.G. the robot can remove weeds that are in a radius of 0,5m around its center. Explain.
 [Answer] : 
 Primarly this would mean that the robot wouldn't have to reach the exact positions of weeds when planning the path but rather follow a path that brings it within a 0.5m radius from the weeds. Which basically means that the robot could find a smoother and shorter path with much more effitiency. To achieve this, the weeds could be clustered using algorithms like K-MEANS with a radius of 0.5 and then planning a path between the centroids of those clusters using any algorithm solving the Traveling Salesman Problem (TSP). 
-
 
 
 
